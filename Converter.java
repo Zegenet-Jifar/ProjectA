@@ -45,8 +45,8 @@ int y = 1;// the variable y is initialized here to be used in the while block. T
 while(y!=4){
 
 System.out.println("Please select an option:");
-System.out.println("1. Volume Converstions");
-System.out.println("2. Miles to Kilometers");
+System.out.println("1. Small Volume Converstions");
+System.out.println("2. Distance Conversitions");
 System.out.println("3. Gallons to Liters");
 System.out.println("4. Quit\n");
 
