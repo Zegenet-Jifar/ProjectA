@@ -1,6 +1,7 @@
 package main;
 import java.util.Scanner;
 public class Converter {
+	
 	//The input collection separate method
 	public int scanInput(){
         Scanner input = new Scanner(System.in);
@@ -16,12 +17,12 @@ public class Converter {
     }
    
     public void convertFeetToMeters(int pr){
-        System.out.println( pr + " cup(s) is equivalent to " + (pr*0.3048) + " teaspoon(s)\n");
+        System.out.println( pr + " Foot is equivalent to " + (pr*0.3048) + " Meter(s)\n");
        
     }
    
     public void convertTeaspoonsToTablespoons(int pr){
-        System.out.println( pr + " cup(s) is equivalent to " + (pr*0.333333) + " teaspoon(s)\n");
+        System.out.println( pr + " Teaspoon(s) is equivalent to " + (pr*0.333333) + " tablespoon(s)\n");
        
     }
    
@@ -30,7 +31,7 @@ public class Converter {
     }
    
     public void convertGallonsToLiters(int pr){
-        System.out.println( pr + " gallon(s) is equal to " + (pr*3.78541) + " kilometer(s)\n");
+        System.out.println( pr + " gallon(s) is equal to " + (pr*3.78541) + " Liter(s)\n");
     }
    
     
